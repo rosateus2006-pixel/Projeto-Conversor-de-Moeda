@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moeda</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <img id="logo" src="./assets/imagens/Logo Tio Patinhas.jpg" alt="Logo do site">
+
+    <main id="interface">
+        <label>
+            Converter <b>de</b>
+            <select>
+                <option>R$ Real Brasileiro</option>
+            </select>
+        </label>
+
+        <label>
+            Converter <b>para</b>
+            <select class="selecioneConversao">
+                <option value="dolar">US$ Dólar americano</option>
+                <option value="euro">€ Euro</option>
+            </select>
+        </label>
+
+        <label>
+            Valor
+            <input class="valorInput" inputmode="decimal" placeholder="R$ 10.000,00">
+        </label>
+        
+        <button id="convert-Button">Converter</button>
+        
+        <section>
+            
+            <div>
+                <img src="./assets/imagens/bandeiraBrasill.jpg" alt="Bandeira do Brasil">
+                <p>Real</p>
+                <p class="valorReal">R$ 0,00</p>
+            </div>
+            
+            <img src="./assets/imagens/setaBaixo.jpg" alt="Seta">
+            
+            <div>
+                <img id="img-Moeda" src="./assets/imagens/bandeiraEUA.jpg" alt="Bandeira do EUA">
+                <p id="nome-Moeda">Dólar Americano</p>
+                <p class="valorDolar">US$ 0,00</p>
+            </div>
+        
+        </section>
+    
+    </main>
+
+</body>
+
+<script src="./script.js"></script>
+
+</html>
