@@ -56,7 +56,7 @@ function changeCurrency() {
 
     if(selecao.value == "euro") {
         nomeMoeda.innerHTML = "Euro";
-        imgMoeda.src = "./assets/imagens/euro.jpg";
+        imgMoeda.src = "./assets/imagens/Euro.jpg";
     }
 
     convert(); //chama a função convert() para atualizar o valor convertido quando a moeda for alterada
